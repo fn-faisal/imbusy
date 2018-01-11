@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ImbsyTextH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Wait"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+
+        <RadioGroup
+            android:id="@+id/imbsy_dialogue_wait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp">
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_none"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_none"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_30_sec"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_30_seconds"
+                android:textColorHighlight="@color/colorAccent"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_1_min"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_1_minute"
+                android:textColorHighlight="@color/colorAccent"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_2_min"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_2_minutes"
+                android:textColorHighlight="@color/colorAccent"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_3_min"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_3_minutes"
+                android:textColorHighlight="@color/colorAccent"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_4_min"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_4_minutes"
+                android:textColorHighlight="@color/colorAccent"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <RadioButton
+                android:id="@+id/imbsy_dialogue_wait_5_min"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/wait_5_minutes"
+                android:textColorHighlight="@color/colorAccent"
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/ImbsyTextH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="On call take action"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_call_action_custom_voicemail"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Custom voice mail."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_call_action_end_call"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Terminate call."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/ImbsyTextH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="On meassage take action"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+
+        <CheckBox
+            android:id="@+id/imbsy_dialogue_msg_resp"
+            style="@style/ImbsyTextP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="Auto response to messages"
+            android:buttonTint="@color/colorAccent"
+            app:buttonTint="@color/colorAccent"
+            />
+
+        <TextView
+            style="@style/ImbsyTextH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="On social media take action"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/messanger_icon"/>
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_social_fb_call_response"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="20dp"
+                android:text="Auto (Facebook's) Messanger call response."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/messanger_icon"/>
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_social_fb_chat_response"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="20dp"
+                android:text="Auto (Facebook's) Messanger chat response."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/twitter_icon"/>
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_social_twt_chat_response"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="20dp"
+                android:text="Auto Twitter chat response."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/twitter_icon"/>
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_social_twt_tweet"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="20dp"
+                android:text="Auto Twitter tweet response."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/whatsapp_icon"/>
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_social_wapp_call_response"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="20dp"
+                android:text="Auto Whatsapp message response."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/whatsapp_icon"/>
+
+            <CheckBox
+                android:id="@+id/imbsy_dialogue_social_wapp_chat_response"
+                style="@style/ImbsyTextP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="20dp"
+                android:text="Auto Whatsapp call response."
+                android:buttonTint="@color/colorAccent"
+                app:buttonTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/imbsy_dialogue_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm done"
+            android:textAllCaps="false"
+            style="@style/ImbsyTextH3"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@color/colorAccent"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,62 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="ImbsyTextH" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/ImbsyTextAppreanceH</item>
+    </style>
+
+    <style name="ImbsyTextH2" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/ImbsyTextAppreanceH</item>
+    </style>
+
+    <style name="ImbsyTextH3" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/ImbsyTextAppreanceH</item>
+    </style>
+
+    <style name="ImbsyTextP" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textAppearance">@style/ImbsyTextAppreanceP</item>
+    </style>
+
+    <style name="ImbsyTextS" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAppearance">@style/ImbsyTextAppreanceP</item>
+    </style>
+
+    <style name="ImbsyTextAppreanceP" parent="android:TextAppearance">
+        <item name="fontPath">fonts/BadScript-Regular.ttf</item>
+    </style>
+
+    <style name="ImbsyTextAppreanceH" parent="android:TextAppearance">
+        <item name="fontPath">fonts/PoiretOne-Regular.ttf</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">I\'m Busy</string>
+
+    <string name="when_i_m">when I\'m</string>
+
+    <!-- Settings and preferences -->
+    <string name="pref_main">imbsy_prefs</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  responses -->
+    <string name="message_response_default">I\'m a bit busy right now, will get back to you shortly.</string>
+    <string name="tweet_default">Hey twitter!</string>
+
+    <!-- Dialogues -->
+    <string name="busy_status_unchecked">Nah! bro, I ain\'t busy %1$s.</string>
+    <string name="busy_status_checked">Sorry brah! I\'m busy %1$s.</string>
+
+    <!-- Layout widget strings -->
+    <string name="i_m_busy">I\'m busy</string>
+    <string name="walking">walking</string>
+    <string name="running_jogging">running/jogging</string>
+    <string name="driving">driving</string>
+    <string name="when_i_m_at">when I\'m at</string>
+    <string name="my_locations">My locations</string>
+    <string name="loc_card_name_default">Location Name</string>
+    <string name="loc_card_tgl_default">toggle:__</string>
+    <string name="loc_card_action_default">when im at</string>
+
+    <string name="loc_toggle_text">toggled: %1$s </string>
+
+    <string name="action_text">when I\'m at %1$s</string>
+
+    <!-- voice mail storage prefs -->
+    <string name="pref_vmail_key"> pref_vmail_key </string>
+    <string name="wait_none">Don\'t wait.</string>
+    <string name="wait_30_seconds">Wait 30 seconds.</string>
+    <string name="wait_1_minute">Wait 1 minute.</string>
+    <string name="wait_2_minutes">Wait 2 minutes.</string>
+    <string name="wait_3_minutes">Wait 3 minutes.</string>
+    <string name="wait_4_minutes">Wait 4 minutes.</string>
+    <string name="wait_5_minutes">Wait 5 minutes.</string>
+
+</resources>

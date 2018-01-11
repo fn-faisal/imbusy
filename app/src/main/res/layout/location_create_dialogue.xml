@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/loc_dia_create_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                style="@style/ImbsyTextP"
+                android:paddingLeft="3dp"
+                android:layout_marginLeft="5dp"
+                android:hint="Location name!"/>
+
+            <Switch
+                android:id="@+id/loc_dia_create_tgl"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Toggle"
+                android:paddingLeft="3dp"
+                android:layout_marginLeft="5dp"
+                style="@style/ImbsyTextP"
+                />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/loc_dia_create_map_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/location"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <Button
+        android:id="@+id/loc_dia_create_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Add location"
+        style="@style/ImbsyTextH2"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
