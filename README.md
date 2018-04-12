@@ -9,4 +9,4 @@ Let the people in your contact list know when you can't get back to them. ( Andr
 - Whenever you enter your office area, the app lets the people in you contact list know that you can't get back to them at 
   this moment.
 
-![alt text](https://www.dropbox.com/s/w5c0pebpq9tblzc/Screenshot_2018-04-12-14-14-39.png?dl=0)
+![alt text](https://image.ibb.co/ePSde7/Screenshot_2018_04_12_14_14_39.png)
